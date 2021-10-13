@@ -92,3 +92,80 @@ body{
 }
 
 /* styling new games section */
+.game_image{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* styling playstation5 section */
+.main_p .slogan{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    color: rgb(0, 114, 206)
+}
+
+.main_p .title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main_p .subtitle{
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}
+
+.row.playstation{
+    align-items: center;
+}
+
+.left_p .title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.left_p .subtitle{
+    margin-top: 40px;
+    font-size: 25px;
+    color: grey;
+}
+
+.playstation_button{
+    margin-top: 40px;
+    background-color: rgb(45, 100, 230);
+}
+
+.playstation-image{
+    width: 100%;
+}
+
+.row.peripherals{
+    margin: 40px 0;
+    justify-content: space-between;
+}
+
+.peripherals_img_container{
+    text-align: center;
+}
+
+.peripherals_img{
+    width: 100%;
+}
+
+.ps5{
+    border-bottom: 2px solid rgb(45, 100, 230);
+}
+
+@media all and (max-width: 768px){
+    .row.peripherals{
+        justify-content: flex-start;
+    }
+    .peripherals_text{
+        display: none;
+    }
+}
