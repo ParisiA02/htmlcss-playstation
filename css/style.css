@@ -13,6 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    z-index: 1;
     background-color: black;
 }
 
@@ -22,10 +23,14 @@ body{
 
 .sony_logo{
     height: 20px;
+    margin-right: 10px;
 }
 
 .navbar.navbar-expand-lg.navbar-light{
+    width: 100%;
+    padding-top: 50px;
     justify-content: space-between;
+    background-color: white;
 }
 
 .btn{
@@ -33,7 +38,7 @@ body{
     color: white;
 }
 .header_button{
-    background-color: grey;
+    background-color: rgb(54, 54, 54);
 }
 
 .lens_image{
@@ -41,17 +46,11 @@ body{
     margin: 5px 20px;
 }
 
-@media all and (max-width: 991px){
-    .right_bar{
-        display: none;
-    }
-    .left_bar{
-        width: 100%;
-        justify-content: space-between;
-    }
-}
 
 /* styling jumbotron */
+.jumbotron{
+    padding-top: 100px;
+}
 .jumbotron_image_container{
     background-size: cover;
     background-position: center;
@@ -88,7 +87,11 @@ body{
 .game_image{
     width: 100%;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+.first_image{
+    padding: 3px;
+    border: 2px solid rgb(0, 114, 206);
 }
 
 /* styling playstation5 section */
@@ -96,7 +99,7 @@ body{
     text-align: center;
     font-size: 20px;
     margin-top: 100px;
-    color: rgb(0, 114, 206)
+    color: rgb(0, 114, 206);
 }
 
 .main_p .title{
@@ -185,6 +188,7 @@ body{
 
 .ittakestwo_text{
     margin: 40px 0 30px 0;
+    font-size: 20px;
     color: white;
 }
 
@@ -195,6 +199,7 @@ body{
 
 /* styling section new release */
 .new_release{
+    padding-bottom: 100px;
     background-color: rgb(31, 31, 31);
 }
 .new_release_title{
@@ -316,10 +321,6 @@ body{
     width: 100%;
 }
 
-.margin{
-    margin: 0 auto;
-}
-
 .ps_now{
     align-items: center;
 }
@@ -343,6 +344,12 @@ body{
     color: white;
 }
 
+.ps_now_button{
+    margin: 50px 0 30px 0;
+    color: black;
+    background-color: lightgray;
+}
+
 /* styling social media section */
 .social_media{
     margin-bottom: 60px;
@@ -357,4 +364,49 @@ body{
 .social_img{
     margin-top: 20px;
     width: 100%;
+}
+
+/* styling footer */
+.lightblue{
+    padding: 100px 0;
+    background-color: rgb(45, 100, 230);
+}
+
+.ps_footer_logo{
+    width: 100px;
+}
+
+.country{
+    margin: 40px 0;
+    line-height: 25px;
+}
+
+.country_region{
+    color: white;
+    vertical-align: middle;
+}
+
+.language-globe{
+    width: 25px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    color: white;
+}
+
+.sie_logo{
+    padding-top: 50px;
+    width: 200px;
+}
+
+.footer_text{
+    color: white;
+    font-size: 20px;
+}
+
+.underline{
+    text-decoration: underline;
 }
