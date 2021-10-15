@@ -350,6 +350,12 @@ body{
     background-color: lightgray;
 }
 
+@media all and (max-width: 998px){
+    .ps_now_container{
+        display: none;
+    }
+}
+
 /* styling social media section */
 .social_media{
     margin-bottom: 60px;
